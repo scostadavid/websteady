@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="synthwave">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⚡</text></svg>" />
+
+  <!-- seo meta -->
+  <title>WebSteady | Uptime Monitoring</title>
+  <meta name="description" content="Monitore a disponibilidade do seu site em tempo real com nossa ferramenta de monitoramento de uptime. Obtenha alertas imediatos e relatórios detalhados.">
+  <meta name="keywords" content="monitoramento de uptime, disponibilidade do site, ferramenta de monitoramento, alertas de downtime, relatórios de uptime">
+  <meta name="robots" content="index, follow">
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Uptime Monitoring Simplified">
+  <meta property="og:description" content="Monitore a disponibilidade do seu site em tempo real com nossa ferramenta de monitoramento de uptime. Obtenha alertas imediatos e relatórios detalhados.">
+  <meta property="og:image" content="URL_da_imagem_de_destaque">
+  <meta property="og:url" content="URL_da_sua_página">
+  <meta property="og:type" content="website">
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Uptime Monitoring Simplified">
+  <meta name="twitter:description" content="Monitore a disponibilidade do seu site em tempo real com nossa ferramenta de monitoramento de uptime. Obtenha alertas imediatos e relatórios detalhados.">
+  <meta name="twitter:image" content="URL_da_imagem_de_destaque">
+  <meta name="twitter:url" content="URL_da_sua_página">
+  <!-- Canonical Tag -->
+  <link rel="canonical" href="URL_da_sua_página">
+  <!-- Viewport Tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- seo meta -->
+
+  <script src="https://unpkg.com/htmx.org@1.9.12" integrity="sha384-ujb1lZYygJmzgSwoxRggbCHcjc0rB2XoQrxeTUQyRjrOnlCoYta87iKBWq3EsdM2" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body>
+  <div class="max-w-2xl h-screen mx-auto p-4 flex flex-col">
+
+    <header class="text-white mt-4 mb-4 flex flex-row justify-between align-center">
+      <h1 class="text-2xl font-semibold self-center">
+        <a href="/">
+          <span>⚡</span> Web<span class="bg-yellow-400 bg-clip-text text-transparent">Steady</span>
+        </a>
+      </h1>
+      <!-- <nav class="flex gap-2 self-center">
+        <a href="#" class="btn btn-ghost">FAQ</a>
+        <a href="#" class="btn btn-ghost">TOS</a>
+        <a href="#" class="btn btn-ghost">Login</a>
+      </nav> -->
+    </header>
+
+
+    <!-- hero -->
+    <section class="mt-16 mb-16 justify-center flex flex-col items-center">
+      <h2 class="text-white text-3xl font-bold mb-2">
+        Making <span class="bg-gradient-to-r from-yellow-500 to-yellow-400 bg-clip-text text-transparent">Uptime Monitoring</span> simpler
+      </h2>
+
+      <!-- essa copy tem que melhorar -->
+      <p class="text-gray-400 mb-4 text-center">Monitor the Availability of your web services with ease with instant
+        <span class="bg-gradient-to-r from-blue-500 to-blue-300 bg-clip-text text-transparent">
+          Discord
+        </span>,
+        <span class="bg-gradient-to-r from-green-500 to-green-300 bg-clip-text text-transparent">
+          WhatsApp
+        </span>and
+        <span class="bg-gradient-to-r from-purple-500 to-purple-300 bg-clip-text text-transparent">
+          Slack
+        </span> notifications for your service outages
+      </p>
+
+      <!-- <div class="flex mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-yellow-500"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-yellow-500"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-yellow-500"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-yellow-500"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-yellow-500"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg>
+        <span class="ml-2 font-medium">Try for free and monitor your services</span>
+      </div> -->
+
+      <form class="mt-2 flex flex-row gap-2">
+        <label class="input input-bordered flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70"><path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" /><path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" /></svg>
+          <input type="text" class="grow" placeholder="Your best e-mail" />
+        </label>
+        <button type="submit" class="btn btn-primary">
+          <span>Join waitlist</span>
+        </button>
+      </form>
+    </section>
+
+    <section class="mt-16 mb-16 gap-4 flex flex-row items-center justify-center">
+      <!-- monitoramente em tempo real -->
+      <article class="card w-94 border">
+        <div class="flex flex-row gap-2 mb-2 items-center">
+          <p>🙈</p>
+          <h3 class="text-2xl font-bold">Realtime monitoring</h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero obcaecati nemo laboriosam excepturi iusto culpa possimus minus ullam nostrum! Fugiat omnis quaerat esse? Nostrum cupiditate doloremque numquam nulla distinctio odio.</p>
+
+
+      </article>
+
+      <article class="card w-94 border">
+        <div class="flex flex-row gap-2 mb-2 items-center">
+          <p>🙈</p>
+          <h3 class="text-2xl font-bold">Realtime monitoring</h3>
+        </div>
+
+        <ul>
+          <li>email</li>
+          <li>Whatsapp</li>
+          <li>Discord</li>
+          <li>Slack</li>
+        </ul>
+      </article>
+
+
+      <!-- notificações instantâneas -->
+      <!-- <article>
+        <div class="flex flex-row">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70"><path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" /><path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" /></svg>
+          <h3>Instant notifications</h3>
+        </div>
+        <p>text</p>
+      </article> -->
+    </section>
+
+
+
+    <!-- mt-auto -->
+    <footer class="mt-auto text-center">
+      <a href="https://scostadavid.github.io" target="_blank" rel="noreferrer noopener" class="text-white hover:text-blue-400">
+        &copy; 2024 scostadavid
+      </a>
+    </footer>
+  </div>
+</body>
+</html>

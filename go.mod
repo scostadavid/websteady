@@ -1,4 +1,4 @@
-module github.com/scostadavid/scout
+module github.com/scostadavid/websteady
 
 go 1.21.6
 
