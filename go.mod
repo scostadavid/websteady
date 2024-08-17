@@ -1,4 +1,4 @@
-module github.com/scostadavid/tiger
+module github.com/scostadavid/scout
 
 go 1.21.6
 
