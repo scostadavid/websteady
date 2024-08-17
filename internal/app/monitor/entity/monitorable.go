@@ -5,4 +5,5 @@ type Monitorable struct {
 	Name string `db:"name"`
 	URI  string `db:"uri"`
 	// Method string `db:"method"` // get, post, put, delete
+	// payload
 }
