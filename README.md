@@ -1,6 +1,6 @@
 # 🧙 WebSteady Uptime monitor
 
-Web services uptime monitoring
+> Web services uptime monitor written in Golang
 
 ## 👨‍💻 Maintainers/Contributors
 
